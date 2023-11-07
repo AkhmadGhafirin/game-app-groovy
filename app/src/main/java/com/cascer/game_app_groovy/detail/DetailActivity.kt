@@ -36,6 +36,23 @@ class DetailActivity : AppCompatActivity() {
             game?.let {
                 tvTitle.text = it.name
                 ivGame.load(this@DetailActivity, it.backgroundImage)
+                tvEsrbRating.text = it.esrbRating.name
+                tvRating.text = binding.root.context.getString(
+                    com.cascer.game_app_groovy.core.R.string.rating_game,
+                    "${it.rating}",
+                    "${it.ratingsCount}"
+                )
+                var genres = ""
+                it.genres.forEach { genre ->
+                    genres += genre.name
+                }
+                tvGenre.text = genres
+
+                var platforms = ""
+                it.parentPlatforms.forEach { platform ->
+                    platforms += platform.platform.name
+                }
+                tvPlatform.text = platforms
 
                 var favorite = it.isFavorite
 

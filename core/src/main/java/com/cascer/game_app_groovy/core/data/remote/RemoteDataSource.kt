@@ -19,7 +19,7 @@ class RemoteDataSource @Inject constructor(private val apiService: ApiService) {
         return flow {
             try {
                 val response = apiService.getListGame(
-                    key = BuildConfig.API_KEY, page = 1, pageSize = 10
+                    key = BuildConfig.API_KEY, page = 1, pageSize = 50
                 )
                 val dataArray = response.results
                 if (dataArray?.isNotEmpty() == true) {

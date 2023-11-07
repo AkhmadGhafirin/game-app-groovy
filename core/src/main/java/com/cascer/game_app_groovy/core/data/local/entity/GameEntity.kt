@@ -43,8 +43,12 @@ data class GameEntity(
     val tba: Boolean,
     @ColumnInfo(name = "updated")
     val updated: String,
+    @ColumnInfo(name = "esrbRating")
+    val esrbRating: EsrbRatingEntity,
     @ColumnInfo(name = "parentPlatforms")
     val parentPlatforms: List<ParentPlatformEntity>,
+    @ColumnInfo(name = "genres")
+    val genres: List<GenreEntity>,
     @ColumnInfo(name = "isFavorite")
     var isFavorite: Boolean = false
 )

@@ -1,24 +1,18 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.dynamic-feature'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
     id 'kotlin-parcelize'
-    id 'com.google.dagger.hilt.android'
 }
 
 apply from: '../shared_dependencies.gradle'
 
 android {
-    namespace 'com.cascer.game_app_groovy'
+    namespace 'com.cascer.game_app_groovy.favorite'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.cascer.game_app_groovy"
         minSdk 24
-        targetSdk 33
-        versionCode 1
-        versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -37,11 +31,13 @@ android {
     }
     buildFeatures {
         viewBinding = true
-        buildConfig = true
     }
-    dynamicFeatures = [':favorite']
 }
 
 dependencies {
+    implementation project(":app")
     implementation project(":core")
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.10.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 }

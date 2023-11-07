@@ -1,9 +1,11 @@
 package com.cascer.game_app_groovy.core.ui
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.cascer.game_app_groovy.core.R
 import com.cascer.game_app_groovy.core.databinding.ViewGameBinding
 import com.cascer.game_app_groovy.core.domain.model.Game
 import com.cascer.game_app_groovy.core.utils.ImageUtils.load
@@ -49,6 +51,12 @@ class GameAdapter(
             with(binding) {
                 tvTitle.text = item.name
                 ivGame.load(binding.root.context, item.backgroundImage)
+                tvEsrbRating.text = item.esrbRating.name
+                tvRating.text = binding.root.context.getString(
+                    R.string.rating_game,
+                    "${item.rating}",
+                    "${item.ratingsCount}"
+                )
             }
         }
     }

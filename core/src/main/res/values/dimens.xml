@@ -3,5 +3,10 @@
     <dimen name="dimen_16dp">16dp</dimen>
     <dimen name="dimen_10dp">10dp</dimen>
     <dimen name="dimen_200dp">200dp</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
     <dimen name="dimen_20sp">20sp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_18sp">18sp</dimen>
+    <dimen name="dimen_1dp">1dp</dimen>
+    <dimen name="dimen_6dp">6dp</dimen>
 </resources>

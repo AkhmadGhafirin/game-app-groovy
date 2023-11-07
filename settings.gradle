@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "game-app-groovy"
 include ':app'
 include ':core'
+include ':favorite'
