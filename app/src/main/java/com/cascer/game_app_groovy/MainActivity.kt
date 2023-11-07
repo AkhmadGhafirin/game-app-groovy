@@ -1,14 +1,14 @@
 package com.cascer.game_app_groovy
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
 import com.cascer.game_app_groovy.databinding.ActivityMainBinding
-import com.cascer.game_app_groovy.ui.favorite.FavoriteFragment
-import com.cascer.game_app_groovy.ui.home.HomeFragment
+import com.cascer.game_app_groovy.favorite.FavoriteFragment
+import com.cascer.game_app_groovy.home.HomeFragment
 import com.google.android.material.navigation.NavigationView
 import dagger.hilt.android.AndroidEntryPoint
 
