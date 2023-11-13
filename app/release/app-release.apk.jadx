@@ -1,0 +1,75 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "app-release.apk"
+  ],
+  "treeExpansions": [
+    [
+      "com",
+      "Source code",
+      "app-release.apk"
+    ],
+    [
+      "cascer.game_app_groovy",
+      "com",
+      "Source code",
+      "app-release.apk"
+    ],
+    [
+      "com.cascer.game_app_groovy.App",
+      "cascer.game_app_groovy",
+      "com",
+      "Source code",
+      "app-release.apk"
+    ],
+    [
+      "Resources",
+      "app-release.apk"
+    ],
+    [
+      "home",
+      "cascer.game_app_groovy",
+      "com",
+      "Source code",
+      "app-release.apk"
+    ],
+    [
+      "com.cascer.game_app_groovy.home.HomeActivity",
+      "home",
+      "cascer.game_app_groovy",
+      "com",
+      "Source code",
+      "app-release.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.cascer.game_app_groovy.App",
+      "subPath": "java",
+      "caret": 628,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.cascer.game_app_groovy.home.HomeActivity",
+      "subPath": "java",
+      "caret": 3267,
+      "view": {
+        "x": 0,
+        "y": 240
+      }
+    }
+  ],
+  "activeTab": 1,
+  "cacheDir": "app-release.apk.cache",
+  "enableLiveReload": false,
+  "searchHistory": []
+}

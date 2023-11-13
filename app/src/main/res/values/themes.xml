@@ -7,10 +7,6 @@
 
     <style name="Theme.Gameappgroovy" parent="Base.Theme.Gameappgroovy" />
 
-    <style name="Theme.Gameappgroovy.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.Gameappgroovy.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
     <style name="Theme.Gameappgroovy.Toolbar" parent="Widget.MaterialComponents.Toolbar">
         <item name="titleTextColor">@color/black</item>
         <item name="title">@string/app_name</item>
