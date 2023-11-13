@@ -10,7 +10,7 @@ apply from: '../shared_dependencies.gradle'
 
 android {
     namespace 'com.cascer.game_app_groovy'
-    compileSdk 34
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.cascer.game_app_groovy"
