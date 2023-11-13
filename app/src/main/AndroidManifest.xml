@@ -16,10 +16,9 @@
         android:theme="@style/Theme.Gameappgroovy"
         tools:targetApi="31">
         <activity
-            android:name=".ui.detail.DetailActivity"
-            android:exported="false" />
+            android:name=".detail.DetailActivity"/>
         <activity
-            android:name=".MainActivity"
+            android:name=".home.HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
