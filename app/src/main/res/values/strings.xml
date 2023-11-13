@@ -5,4 +5,7 @@
     <string name="home">Home</string>
     <string name="favorite">Favorite</string>
     <string name="no_data">There is no Data</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="genre">Genre</string>
+    <string name="platform">Platform</string>
 </resources>
